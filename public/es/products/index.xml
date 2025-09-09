@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SPAIN !!!  Watch on Vex | hugo landing page template</title>
+    <link>http://localhost:1313/es/products/</link>
+    <description>Recent content in SPAIN !!!  Watch on Vex | hugo landing page template</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Thu, 17 Oct 2019 11:22:16 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ES_Apple Watch 123456</title>
+      <link>http://localhost:1313/es/products/product-1/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <guid>http://localhost:1313/es/products/product-1/</guid>
+      <description>&lt;p&gt;SPANISH  == Apple Watch == SPANISH&#xA;ewrwe  AAAA CCCC NNNNNN @@@@  dfghgd sf&lt;/p&gt;&#xA;&lt;h2 id=&#34;заголовок-2&#34;&gt;Заголовок 2&lt;/h2&gt;&#xA;&lt;h3 id=&#34;заголовок-3&#34;&gt;Заголовок 3&lt;/h3&gt;&#xA;&lt;h4 id=&#34;заголовок-4&#34;&gt;Заголовок 4&lt;/h4&gt;&#xA;&lt;h5 id=&#34;заголовок-5&#34;&gt;Заголовок 5&lt;/h5&gt;&#xA;&lt;h6 id=&#34;заголовок-6&#34;&gt;Заголовок 6&lt;/h6&gt;&#xA;&lt;h2 id=&#34;форматування-тексту&#34;&gt;Форматування тексту&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Курсив&lt;/em&gt;: &lt;em&gt;курсив&lt;/em&gt; або &lt;em&gt;курсив&lt;/em&gt;&lt;br&gt;&#xA;** Apple Жирний** &lt;del&gt;Закреслений&lt;/del&gt;: &lt;del&gt;закреслений&lt;/del&gt;&lt;br&gt;&#xA;&lt;em&gt;&lt;strong&gt;Жирний курсив&lt;/strong&gt;&lt;/em&gt;: &lt;em&gt;&lt;strong&gt;жирний курсив&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Galaxy Watch</title>
+      <link>http://localhost:1313/es/products/product-2/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <guid>http://localhost:1313/es/products/product-2/</guid>
+      <description>&lt;p&gt;Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Motorola Watch</title>
+      <link>http://localhost:1313/es/products/product-4/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <guid>http://localhost:1313/es/products/product-4/</guid>
+      <description>&lt;p&gt;Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OnePlus Watch</title>
+      <link>http://localhost:1313/es/products/product-7/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <guid>http://localhost:1313/es/products/product-7/</guid>
+      <description>&lt;p&gt;Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Oppo Watch</title>
+      <link>http://localhost:1313/es/products/product-8/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <guid>http://localhost:1313/es/products/product-8/</guid>
+      <description>&lt;p&gt;Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Realme Watch</title>
+      <link>http://localhost:1313/es/products/product-6/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <guid>http://localhost:1313/es/products/product-6/</guid>
+      <description>&lt;p&gt;Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Redmi Watch</title>
+      <link>http://localhost:1313/es/products/product-5/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <guid>http://localhost:1313/es/products/product-5/</guid>
+      <description>&lt;p&gt;Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Xiaomi Watch</title>
+      <link>http://localhost:1313/es/products/product-3/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <guid>http://localhost:1313/es/products/product-3/</guid>
+      <description>&lt;p&gt;Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

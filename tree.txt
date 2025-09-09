@@ -1,0 +1,578 @@
+Folder PATH listing for volume Локальний диск
+Volume serial number is 005C0062 9C90:B09E
+C:.
+|   .hugo_build.lock
+|   go.mod
+|   go.sum
+|   hugo.toml
+|   tree.txt
+|   
++---assets
+|   \---images
+|       |   avater.png
+|       |   call-to-action.jpg
+|       |   favicon.png
+|       |   logo.png
+|       |   watch-2.png
+|       |   watch.png
+|       |   
+|       \---showcase
+|               showcase-1.png
+|               showcase-2.png
+|               showcase-3.png
+|               showcase-4.png
+|               showcase-5.png
+|               showcase-6.png
+|               showcase-7.png
+|               showcase-8.png
+|               
++---config
+|   \---_default
+|           hugo.toml
+|           languages.toml
+|           menus.en.toml
+|           menus.fr.toml
+|           module.toml
+|           
++---content
+|   +---english
+|   |   +---blog
+|   |   |       post-1.md
+|   |   |       post-2.md
+|   |   |       post-3.md
+|   |   |       post-4.md
+|   |   |       _index.md
+|   |   |       
+|   |   +---contact
+|   |   |       _index.md
+|   |   |       
+|   |   +---privacy-policy
+|   |   |       _index.md
+|   |   |       
+|   |   +---products
+|   |   |       product-1.md
+|   |   |       product-2.md
+|   |   |       product-3.md
+|   |   |       product-4.md
+|   |   |       product-5.md
+|   |   |       product-6.md
+|   |   |       product-7.md
+|   |   |       product-8.md
+|   |   |       _index.md
+|   |   |       
+|   |   \---terms-conditions
+|   |           _index.md
+|   |           
+|   +---french
+|   |   +---blog
+|   |   |       post-1.md
+|   |   |       post-2.md
+|   |   |       post-3.md
+|   |   |       post-4.md
+|   |   |       _index.md
+|   |   |       
+|   |   +---contact
+|   |   |       _index.md
+|   |   |       
+|   |   +---privacy-policy
+|   |   |       _index.md
+|   |   |       
+|   |   +---products
+|   |   |       product-1.md
+|   |   |       product-2.md
+|   |   |       product-3.md
+|   |   |       product-4.md
+|   |   |       product-5.md
+|   |   |       product-6.md
+|   |   |       product-7.md
+|   |   |       product-8.md
+|   |   |       _index.md
+|   |   |       
+|   |   \---terms-conditions
+|   |           _index.md
+|   |           
+|   \---spain
+|       +---blog
+|       |       post-1.md
+|       |       post-2.md
+|       |       post-3.md
+|       |       post-4.md
+|       |       _index.md
+|       |       
+|       +---contact
+|       |       _index.md
+|       |       
+|       +---privacy-policy
+|       |       _index.md
+|       |       
+|       +---products
+|       |       product-1.md
+|       |       product-2.md
+|       |       product-3.md
+|       |       product-4.md
+|       |       product-5.md
+|       |       product-6.md
+|       |       product-7.md
+|       |       product-8.md
+|       |       _index.md
+|       |       
+|       \---terms-conditions
+|               _index.md
+|               
++---data
+|   +---en
+|   |       homepage.yml
+|   |       
+|   \---fr
+|           homepage.yml
+|           
++---i18n
+|       en.yaml
+|       fr.yaml
+|       
++---public
+|   |   .htaccess
+|   |   index.html
+|   |   index.xml
+|   |   sitemap.xml
+|   |   
+|   +---blog
+|   |   |   index.html
+|   |   |   index.xml
+|   |   |   
+|   |   +---post-1
+|   |   |       index.html
+|   |   |       
+|   |   +---post-2
+|   |   |       index.html
+|   |   |       
+|   |   +---post-3
+|   |   |       index.html
+|   |   |       
+|   |   \---post-4
+|   |           index.html
+|   |           
+|   +---categories
+|   |       index.html
+|   |       index.xml
+|   |       
+|   +---contact
+|   |       index.html
+|   |       index.xml
+|   |       
+|   +---en
+|   |       index.html
+|   |       sitemap.xml
+|   |       
+|   +---fr
+|   |   |   index.html
+|   |   |   index.xml
+|   |   |   sitemap.xml
+|   |   |   
+|   |   +---blog
+|   |   |   |   index.html
+|   |   |   |   index.xml
+|   |   |   |   
+|   |   |   +---post-1
+|   |   |   |       index.html
+|   |   |   |       
+|   |   |   +---post-2
+|   |   |   |       index.html
+|   |   |   |       
+|   |   |   +---post-3
+|   |   |   |       index.html
+|   |   |   |       
+|   |   |   \---post-4
+|   |   |           index.html
+|   |   |           
+|   |   +---categories
+|   |   |       index.html
+|   |   |       index.xml
+|   |   |       
+|   |   +---contact
+|   |   |       index.html
+|   |   |       index.xml
+|   |   |       
+|   |   +---privacy-policy
+|   |   |       index.html
+|   |   |       index.xml
+|   |   |       
+|   |   +---products
+|   |   |   |   index.html
+|   |   |   |   index.xml
+|   |   |   |   
+|   |   |   +---product-1
+|   |   |   |       index.html
+|   |   |   |       
+|   |   |   +---product-2
+|   |   |   |       index.html
+|   |   |   |       
+|   |   |   +---product-3
+|   |   |   |       index.html
+|   |   |   |       
+|   |   |   +---product-4
+|   |   |   |       index.html
+|   |   |   |       
+|   |   |   +---product-5
+|   |   |   |       index.html
+|   |   |   |       
+|   |   |   +---product-6
+|   |   |   |       index.html
+|   |   |   |       
+|   |   |   +---product-7
+|   |   |   |       index.html
+|   |   |   |       
+|   |   |   \---product-8
+|   |   |           index.html
+|   |   |           
+|   |   +---tags
+|   |   |       index.html
+|   |   |       index.xml
+|   |   |       
+|   |   \---terms-conditions
+|   |           index.html
+|   |           index.xml
+|   |           
+|   +---images
+|   |   |   avater.png
+|   |   |   avater_hu_161b077558d9e16a.webp
+|   |   |   logo.png
+|   |   |   logo_hu_e2dffb5d09e59266.webp
+|   |   |   watch-2.png
+|   |   |   watch-2_hu_4a0b5aefb42e5230.webp
+|   |   |   watch.png
+|   |   |   watch_hu_ca05ebc63978b559.webp
+|   |   |   
+|   |   \---showcase
+|   |           showcase-1.png
+|   |           showcase-1_hu_cfba01b924900f3b.webp
+|   |           showcase-2.png
+|   |           showcase-2_hu_c7204a6325ba1c50.webp
+|   |           showcase-3.png
+|   |           showcase-3_hu_b44270504e1c361f.webp
+|   |           showcase-4.png
+|   |           showcase-4_hu_b77a6fd8be3668d9.webp
+|   |           showcase-5.png
+|   |           showcase-5_hu_ff2184d12d44f0df.webp
+|   |           showcase-6.png
+|   |           showcase-6_hu_f8b9fbcf5989e14d.webp
+|   |           showcase-7.png
+|   |           showcase-7_hu_7a3b62076ef66e38.webp
+|   |           showcase-8.png
+|   |           showcase-8_hu_a20d989695b06d33.webp
+|   |           
+|   +---js
+|   |       script.js
+|   |       
+|   +---plugins
+|   |   +---bootstrap
+|   |   |       bootstrap.min.css
+|   |   |       bootstrap.min.js
+|   |   |       
+|   |   +---jquery
+|   |   |       jquery.js
+|   |   |       
+|   |   +---slick
+|   |   |       slick.min.css
+|   |   |       slick.min.js
+|   |   |       
+|   |   \---themefisher-font
+|   |       |   demo.html
+|   |       |   themefisher-font.min.css
+|   |       |   
+|   |       \---fonts
+|   |               themefisher-font.eot
+|   |               themefisher-font.svg
+|   |               themefisher-font.ttf
+|   |               themefisher-font.woff
+|   |               
+|   +---privacy-policy
+|   |       index.html
+|   |       index.xml
+|   |       
+|   +---products
+|   |   |   index.html
+|   |   |   index.xml
+|   |   |   
+|   |   +---product-1
+|   |   |       index.html
+|   |   |       
+|   |   +---product-2
+|   |   |       index.html
+|   |   |       
+|   |   +---product-3
+|   |   |       index.html
+|   |   |       
+|   |   +---product-4
+|   |   |       index.html
+|   |   |       
+|   |   +---product-5
+|   |   |       index.html
+|   |   |       
+|   |   +---product-6
+|   |   |       index.html
+|   |   |       
+|   |   +---product-7
+|   |   |       index.html
+|   |   |       
+|   |   \---product-8
+|   |           index.html
+|   |           
+|   +---scss
+|   |       style.min.css
+|   |       
+|   +---tags
+|   |       index.html
+|   |       index.xml
+|   |       
+|   \---terms-conditions
+|           index.html
+|           index.xml
+|           
++---resources
+|   \---_gen
+|       +---assets
+|       |   \---scss
+|       |           style.scss_8eb8c3e1c83e81a3be17b8e96be1a8e3.content
+|       |           style.scss_8eb8c3e1c83e81a3be17b8e96be1a8e3.json
+|       |           
+|       \---images
+|           \---images
+|               |   avater_hu_161b077558d9e16a.webp
+|               |   avater_hu_307b847466d8674a.webp
+|               |   avater_hu_e57e11e74cda6056.webp
+|               |   logo_hu_70b6a22bfcfb56e4.webp
+|               |   logo_hu_8bff7ab7c1f248fb.webp
+|               |   logo_hu_e2dffb5d09e59266.webp
+|               |   watch-2_hu_4a0b5aefb42e5230.webp
+|               |   watch-2_hu_719849494dec1e86.webp
+|               |   watch-2_hu_ce26ea017a0db6a7.webp
+|               |   watch_hu_515ce31f5996e48e.webp
+|               |   watch_hu_ca05ebc63978b559.webp
+|               |   watch_hu_eb903d90c5ce76b.webp
+|               |   
+|               \---showcase
+|                       showcase-1_hu_1f750761765df050.webp
+|                       showcase-1_hu_2338b4c65eb1457a.webp
+|                       showcase-1_hu_cfba01b924900f3b.webp
+|                       showcase-2_hu_65dc7d239a2b0db6.webp
+|                       showcase-2_hu_c7204a6325ba1c50.webp
+|                       showcase-2_hu_ddefe9358219b11a.webp
+|                       showcase-3_hu_462440615e751474.webp
+|                       showcase-3_hu_6f8ccdd46f64eedc.webp
+|                       showcase-3_hu_b44270504e1c361f.webp
+|                       showcase-4_hu_344df32a13f7aacf.webp
+|                       showcase-4_hu_91b462ef61f452da.webp
+|                       showcase-4_hu_b77a6fd8be3668d9.webp
+|                       showcase-5_hu_be8a607be2da707b.webp
+|                       showcase-5_hu_e26b392970d3752.webp
+|                       showcase-5_hu_ff2184d12d44f0df.webp
+|                       showcase-6_hu_9ec02855c4e018c3.webp
+|                       showcase-6_hu_d8b95aff59324622.webp
+|                       showcase-6_hu_f8b9fbcf5989e14d.webp
+|                       showcase-7_hu_5ad981e9948160a5.webp
+|                       showcase-7_hu_7a3b62076ef66e38.webp
+|                       showcase-7_hu_ee790694b981daeb.webp
+|                       showcase-8_hu_17797fbc62450237.webp
+|                       showcase-8_hu_a20d989695b06d33.webp
+|                       showcase-8_hu_f3d515495460949c.webp
+|                       
+\---themes
+    \---vex-hugo
+        |   .gitignore
+        |   .hugo_build.lock
+        |   .prettierrc
+        |   go.sum
+        |   LICENSE
+        |   netlify.toml
+        |   package.json
+        |   README.md
+        |   theme.toml
+        |   
+        +---.forestry
+        |   |   settings.yml
+        |   |   
+        |   \---front_matter
+        |       \---templates
+        |               post.yml
+        |               product.yml
+        |               
+        +---archetypes
+        |       default.md
+        |       
+        +---assets
+        |   +---js
+        |   |       script.js
+        |   |       
+        |   \---scss
+        |           style.scss
+        |           _mixins.scss
+        |           
+        +---exampleSite
+        |   |   go.mod
+        |   |   hugo.toml
+        |   |   
+        |   +---assets
+        |   |   \---images
+        |   |       |   avater.png
+        |   |       |   call-to-action.jpg
+        |   |       |   favicon.png
+        |   |       |   logo.png
+        |   |       |   watch-2.png
+        |   |       |   watch.png
+        |   |       |   
+        |   |       \---showcase
+        |   |               showcase-1.png
+        |   |               showcase-2.png
+        |   |               showcase-3.png
+        |   |               showcase-4.png
+        |   |               showcase-5.png
+        |   |               showcase-6.png
+        |   |               showcase-7.png
+        |   |               showcase-8.png
+        |   |               
+        |   +---config
+        |   |   \---_default
+        |   |           hugo.toml
+        |   |           languages.toml
+        |   |           menus.en.toml
+        |   |           menus.fr.toml
+        |   |           module.toml
+        |   |           
+        |   +---content
+        |   |   +---english
+        |   |   |   +---blog
+        |   |   |   |       post-1.md
+        |   |   |   |       post-2.md
+        |   |   |   |       post-3.md
+        |   |   |   |       post-4.md
+        |   |   |   |       _index.md
+        |   |   |   |       
+        |   |   |   +---contact
+        |   |   |   |       _index.md
+        |   |   |   |       
+        |   |   |   +---privacy-policy
+        |   |   |   |       _index.md
+        |   |   |   |       
+        |   |   |   +---products
+        |   |   |   |       product-1.md
+        |   |   |   |       product-2.md
+        |   |   |   |       product-3.md
+        |   |   |   |       product-4.md
+        |   |   |   |       product-5.md
+        |   |   |   |       product-6.md
+        |   |   |   |       product-7.md
+        |   |   |   |       product-8.md
+        |   |   |   |       _index.md
+        |   |   |   |       
+        |   |   |   \---terms-conditions
+        |   |   |           _index.md
+        |   |   |           
+        |   |   \---french
+        |   |       +---blog
+        |   |       |       post-1.md
+        |   |       |       post-2.md
+        |   |       |       post-3.md
+        |   |       |       post-4.md
+        |   |       |       _index.md
+        |   |       |       
+        |   |       +---contact
+        |   |       |       _index.md
+        |   |       |       
+        |   |       +---privacy-policy
+        |   |       |       _index.md
+        |   |       |       
+        |   |       +---products
+        |   |       |       product-1.md
+        |   |       |       product-2.md
+        |   |       |       product-3.md
+        |   |       |       product-4.md
+        |   |       |       product-5.md
+        |   |       |       product-6.md
+        |   |       |       product-7.md
+        |   |       |       product-8.md
+        |   |       |       _index.md
+        |   |       |       
+        |   |       \---terms-conditions
+        |   |               _index.md
+        |   |               
+        |   +---data
+        |   |   +---en
+        |   |   |       homepage.yml
+        |   |   |       
+        |   |   \---fr
+        |   |           homepage.yml
+        |   |           
+        |   \---i18n
+        |           en.yaml
+        |           fr.yaml
+        |           
+        +---images
+        |       screenshot.png
+        |       tn.png
+        |       
+        +---layouts
+        |   |   404.html
+        |   |   index.html
+        |   |   
+        |   +---contact
+        |   |       list.html
+        |   |       
+        |   +---partials
+        |   |       about-product.html
+        |   |       banner.html
+        |   |       features.html
+        |   |       footer.html
+        |   |       head.html
+        |   |       header.html
+        |   |       preloader.html
+        |   |       products.html
+        |   |       promo.html
+        |   |       subscription.html
+        |   |       testimonials.html
+        |   |       
+        |   +---privacy-policy
+        |   |       list.html
+        |   |       
+        |   +---products
+        |   |       list.html
+        |   |       single.html
+        |   |       
+        |   +---terms-conditions
+        |   |       list.html
+        |   |       
+        |   \---_default
+        |           baseof.html
+        |           list.html
+        |           single.html
+        |           
+        +---scripts
+        |       clearModules.js
+        |       projectSetup.js
+        |       themeSetup.js
+        |       
+        \---static
+            |   .htaccess
+            |   
+            \---plugins
+                +---bootstrap
+                |       bootstrap.min.css
+                |       bootstrap.min.js
+                |       
+                +---jquery
+                |       jquery.js
+                |       
+                +---slick
+                |       slick.min.css
+                |       slick.min.js
+                |       
+                \---themefisher-font
+                    |   demo.html
+                    |   themefisher-font.min.css
+                    |   
+                    \---fonts
+                            themefisher-font.eot
+                            themefisher-font.svg
+                            themefisher-font.ttf
+                            themefisher-font.woff
+                            
