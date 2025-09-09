@@ -1,8 +1,8 @@
 ########################### Default parameters ##########################
 
 ## baseURL = "https://alexkovychart.netlify.app/"
-baseURL = "http://localhost:1313/"
-## baseURL = "https://koloryt.github.io/Vex2/"
+## baseURL = "http://localhost:1313/"
+baseURL = "https://https://bogdandvor.github.io/"
 
 [params]
 logo = "images/logo.png"
