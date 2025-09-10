@@ -1,6 +1,6 @@
 // Preloader js    
 $(window).on('load', function () {
-  $('.preloader').fadeOut(100);
+  $('.preloader').fadeOut(50);
 });
 
 (function ($) {
@@ -11,7 +11,10 @@ $(window).on('load', function () {
   $('.product-image-slider').slick({
     autoplay: false,
     infinite: true,
-    arrows: false,
+	speed: 100,
+    arrows: true,
+	prevArrow: '<button type="button" class="arrow-prev-123">‹</button>',
+	nextArrow: '<button type="button" class="arrow-next-123">›</button>',
     dots: true,
     customPaging: function (slider, i) {
       var image = $(slider.$slides[i]).data('image');

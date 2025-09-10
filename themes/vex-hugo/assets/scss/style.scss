@@ -1,7 +1,7 @@
 @import 'mixins';
 
 // Variables
-$primary-font: 'Garamond',
+$primary-font: 'Trebuchet MS',
 sans-serif;
 $secondary-font: 'Courier New',
 serif;
@@ -640,4 +640,76 @@ textarea.form-control {
   &:hover{
     color: $primary-color;
   }
+}
+
+.button-42{
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $primary-font;
+  font-size: 20px;
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
+
+.button-42:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+.product-image-slider .arrow-prev-123,
+.product-image-slider .arrow-next-123 {
+  position: absolute;
+  top: calc(50% - 60px);
+  transform: translateY(-50%);
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.4);
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.8;
+  
+}
+
+.product-image-slider .arrow-prev-123 {
+  left: 10px;
+}
+.product-image-slider .arrow-next-123 {
+  right: 10px;
+}
+
+.product-image-slider .arrow-prev-123:hover,
+.product-image-slider .arrow-next-123:hover {
+  background: rgba(0,0,0,0.7);
+  opacity: 1;
+
 }
