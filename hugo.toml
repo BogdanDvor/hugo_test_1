@@ -42,6 +42,14 @@ link = "plugins/bootstrap/bootstrap.min.js"
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"
+[[params.plugins.js]]
+link = "https://payhip.com/payhip.js"
+[[params.plugins.js]]
+link = "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+[[params.plugins.js]]
+link = "https://code.jquery.com/jquery-3.6.0.min.js"
+[[params.plugins.js]]
+link = "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"
 
 
 

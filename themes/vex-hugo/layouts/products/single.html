@@ -1,6 +1,5 @@
 {{ define "main" }}
 
-<script type="text/javascript" src="https://payhip.com/payhip.js"></script>
 <script type="text/javascript">
      var PayhipConfig = {
         enableCart: true
@@ -10,9 +9,9 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-md-5 mb-4 mb-md-0">
+      <div class="col-md-6 mb-4 mb-md-0">
         <!-- product image slider -->
-        <div class="product-image-slider slider-wrapper">
+        <div class="product-image-slider">
           {{ range .Params.images }}
           <div data-image="{{ . | absURL }}">
             {{ partial "image.html" (dict "Src" . "Alt" "product-image" "Class" "img-fluid w-100" ) }}
@@ -20,7 +19,7 @@
           {{ end }}
         </div>
       </div>
-      <div class="col-lg-6 col-md-7 offset-lg-1">
+      <div class="col-lg-5 col-md-6 offset-lg-1">
         <h1 class="mb-4">{{ .Title }}</h1>
         {{ with .Params.colors }}<p><strong>Colors: </strong>{{ delimit . ", " | title}}</p>{{ end }}
         {{ with .Params.sizes }}<p><strong>Sizes: </strong>{{ delimit . ", " | title}}</p>{{ end }}
