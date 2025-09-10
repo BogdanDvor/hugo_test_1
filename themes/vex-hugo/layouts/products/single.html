@@ -60,9 +60,8 @@
         <p class="price py-4">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
         {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
         </p>
-        <a href="https://payhip.com/b/xZTjt" class="payhip-add-to-cart-button button-42" data-theme="none" data-product="xZTjt">Add to cart</a>
-		
-        <div class="content">{{.Content}}</div>
+        <button href={{ .Params.button_link }} class="payhip-add-to-cart-button button-42" data-theme="none" data-product={{ path.Base .Params.button_link }}>Add to cart</button>
+        <div class="content" style="padding-top: 35px;">{{.Content}}</div>
       </div>
     </div>
   </div>

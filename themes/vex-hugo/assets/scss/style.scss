@@ -1,9 +1,9 @@
 @import 'mixins';
 
 // Variables
-$primary-font: 'Josefin Sans',
+$primary-font: 'Garamond',
 sans-serif;
-$secondary-font: 'Droid Serif',
+$secondary-font: 'Courier New',
 serif;
 $primary-color: #f9a743;
 $icon-font: 'themefisher-font' !important;
@@ -69,6 +69,12 @@ h4,
   font-weight: 400;
 }
 
+strong {
+  font-weight: 1000;
+  bold: true;
+  line-height: 25px;
+}
+
 p {
   font-size: 18px;
   line-height: 25px;
@@ -128,7 +134,7 @@ a:active {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 30px 0;
 }
 
 .font-size-60 {
@@ -461,13 +467,15 @@ footer {
 
 // product single
 p.price {
+  font-stretch: 10%;
   font-size: 30px;
+  font-weight: 600;
   font-family: $secondary-font;
 }
 
 s.price {
   color: red;
-  font-size: 25px;
+  font-size: 20px;
   font-family: $secondary-font;
 }
 

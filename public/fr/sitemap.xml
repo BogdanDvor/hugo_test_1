@@ -96,11 +96,6 @@
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/products/product-4/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es-es"
                 href="http://localhost:1313/es/products/product-4/"
                 />
@@ -114,11 +109,6 @@
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/products/product-7/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es-es"
                 href="http://localhost:1313/es/products/product-7/"
                 />
@@ -130,11 +120,6 @@
   </url><url>
     <loc>http://localhost:1313/fr/products/product-8/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/products/product-8/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
@@ -186,11 +171,6 @@
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/products/product-6/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es-es"
                 href="http://localhost:1313/es/products/product-6/"
                 />
@@ -202,11 +182,6 @@
   </url><url>
     <loc>http://localhost:1313/fr/products/product-5/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/products/product-5/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
