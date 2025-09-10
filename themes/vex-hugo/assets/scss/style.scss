@@ -334,27 +334,7 @@ header.sticky-top {
     opacity: 0;
     border-radius: 50%;
 
-    .gallery-popup {
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      background: $primary-color;
-      padding: 5px 10px;
-      border-radius: 40px;
-      width: 50px;
-      height: 50px;
 
-      i {
-        color: #fff;
-        font-size: 30px;
-        line-height: 40px;
-        display: inline-block;
-      }
-    }
   }
 }
 
@@ -637,7 +617,16 @@ textarea.form-control {
   color: inherit;
   text-decoration: none !important;
   &:hover{
+	transition: 0.3s ease;
     color: $primary-color;
+  }
+}
+
+.link-all{
+  color: inherit;
+  text-decoration: none !important;
+  &:hover{
+    color: #000;
   }
 }
 
@@ -702,3 +691,26 @@ textarea.form-control {
         max-height: 100%;
         height: auto;
       }
+	  
+	  
+.gallery-popup {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 10px; /* скруглення куточків */
+  transition: 0.3s ease;
+}
+
+.gallery-popup img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  border-radius: inherit; /* щоб картинка теж була зі скругленням */
+  transition: 0.3s ease;
+}
+
+
+.gallery-popup:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
