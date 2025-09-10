@@ -231,423 +231,117 @@
 </header>
 
 
+
 <script type="text/javascript">
      var PayhipConfig = {
         enableCart: true
     };
 </script>
 
+
+<link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css"
+          />
+    <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.css"
+          />
+    <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.lazyload.css"
+          />
+    <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.css"
+          />
+    <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.thumbs.css"
+          />
+		  
+<style>
+      #myCarousel {
+        --f-arrow-pos: 10px;
+        --f-arrow-bg: rgba(255,255,255,0.75);
+        --f-arrow-hover-bg: rgba(255,255,255,1);
+        --f-arrow-color: #333;
+        --f-arrow-width: 40px;
+        --f-arrow-height: 40px;
+        --f-arrow-svg-width: 20px;
+        --f-arrow-svg-height: 20px;
+        --f-arrow-svg-stroke-width: 2px;
+        --f-arrow-border-radius: 50%;
+
+        height: 400px;
+      }
+
+      #myCarousel .f-carousel__slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #myCarousel img {
+        max-width: 100%;
+        max-height: 100%;
+        height: auto;
+      }
+</style>
+
 <section class="section">
   <div class="container">
     <div class="row">
       <div class="col-md-6 mb-4 mb-md-0">
         
-        <div class="product-image-slider">
+        <div class="f-carousel" id="myCarousel">
           
-          <div data-image="http://localhost:1313/images/showcase/showcase-6.png">
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <img
-          
-            src="/images/showcase/showcase-6_hu_f8b9fbcf5989e14d.webp" loading="lazy"
-            decoding="async" alt="product-image"
-          
-
-          class=" img-fluid w-100 img"
-          width="375"
-          height="432"
-          onerror="this.onerror='null';this.src='\/images\/showcase\/showcase-6.png';" />
-      
-      
-    
-    
-  
-
-
-  
-
-
-          </div>
-          
-          <div data-image="http://localhost:1313/images/showcase/showcase-2.png">
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/images/showcase/showcase-2_hu_69822eac9e420f9b.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/images/showcase/showcase-2_hu_e9612f2e477da063.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/images/showcase/showcase-2_hu_b31b84fe8381be90.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/images/showcase/showcase-2_hu_107eb8024b6b102b.webp"
+		  <div
+           class="f-carousel__slide"
+           data-fancybox="gallery"
+           data-src="https://lipsum.app/id/62/1920x1080"
+           data-thumb-src="https://lipsum.app/id/62/1920x1080"
+           >
+             <img
+               data-lazy-src="https://lipsum.app/id/62/1920x1080"
+               alt="product image"
              />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/images/showcase/showcase-2_hu_29c409d5fbd58a80.png"
-            class=" img-fluid w-100 img"
-            alt="product-image"
-            width="750"
-            height="864" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
           </div>
           
-          <div data-image="http://localhost:1313/images/showcase/showcase-3.png">
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <img
-          
-            src="/images/showcase/showcase-3_hu_bd6fdf8dad3dc2f5.webp" loading="lazy"
-            decoding="async" alt="product-image"
-          
-
-          class=" img-fluid w-100 img"
-          width="375"
-          height="432"
-          onerror="this.onerror='null';this.src='\/images\/showcase\/showcase-3.png';" />
-      
-      
-    
-    
-  
-
-
-  
-
-
+		  <div
+           class="f-carousel__slide"
+           data-fancybox="gallery"
+           data-src="https://lipsum.app/id/62/1920x1080"
+           data-thumb-src="https://lipsum.app/id/62/1920x1080"
+           >
+             <img
+               data-lazy-src="https://lipsum.app/id/62/1920x1080"
+               alt="product image"
+             />
           </div>
           
-          <div data-image="http://localhost:1313/images/showcase/showcase-4.png">
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <img
+		  <div
+           class="f-carousel__slide"
+           data-fancybox="gallery"
+           data-src="https://lipsum.app/id/62/1920x1080"
+           data-thumb-src="https://lipsum.app/id/62/1920x1080"
+           >
+             <img
+               data-lazy-src="https://lipsum.app/id/62/1920x1080"
+               alt="product image"
+             />
+          </div>
           
-            src="/images/showcase/showcase-4_hu_b77a6fd8be3668d9.webp" loading="lazy"
-            decoding="async" alt="product-image"
-          
-
-          class=" img-fluid w-100 img"
-          width="375"
-          height="432"
-          onerror="this.onerror='null';this.src='\/images\/showcase\/showcase-4.png';" />
-      
-      
-    
-    
-  
-
-
-  
-
-
+		  <div
+           class="f-carousel__slide"
+           data-fancybox="gallery"
+           data-src="https://lipsum.app/id/62/1920x1080"
+           data-thumb-src="https://lipsum.app/id/62/1920x1080"
+           >
+             <img
+               data-lazy-src="https://lipsum.app/id/62/1920x1080"
+               alt="product image"
+             />
           </div>
           
         </div>
@@ -656,16 +350,34 @@
         <h1 class="mb-4">Realme Watch</h1>
         <p><strong>Colors: </strong>Black, White, Gray</p>
         <p><strong>Sizes: </strong>Small, Medium, Large</p>
-        <p class="price py-4">$25.00
-        <s class="price">$30.00</s>
+        <p class="price py-4">
+          
+            $25.00
+          
+          
+            <s class="price">$30.00</s>
+          
         </p>
-        <button href=# class="payhip-add-to-cart-button button-42" data-theme="none" data-product=#>Add to cart</button>
+        <button 
+          href=# 
+          class="payhip-add-to-cart-button button-42" 
+          data-theme="none" 
+          data-product=#>
+          Add to cart
+        </button>
         <div class="content" style="padding-top: 35px;"><p>Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.</p>
 </div>
       </div>
     </div>
   </div>
 </section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.lazyload.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.thumbs.umd.js"></script>
 
 <footer>
   <div class="container text-center">
@@ -816,12 +528,6 @@
 <script src="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"></script>
 
 <script src="https://payhip.com/payhip.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"></script>
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
 
 

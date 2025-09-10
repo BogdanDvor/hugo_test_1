@@ -1,21 +1,52 @@
 {{ define "main" }}
 
+<!-- Payhip config -->
 <script type="text/javascript">
      var PayhipConfig = {
         enableCart: true
     };
 </script>
 
+<!-- Fancybox styles -->
+<link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css"
+          />
+    <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.css"
+          />
+    <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.lazyload.css"
+          />
+    <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.css"
+          />
+    <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.thumbs.css"
+          />
+
 <section class="section">
   <div class="container">
     <div class="row">
       <div class="col-md-6 mb-4 mb-md-0">
         <!-- product image slider -->
-        <div class="product-image-slider">
+        <div class="f-carousel" id="myCarousel">
           {{ range .Params.images }}
-          <div data-image="{{ . | absURL }}">
-            {{ partial "image.html" (dict "Src" . "Alt" "product-image" "Class" "img-fluid w-100" ) }}
-          </div>
+		  <div
+           class="f-carousel__slide"
+           data-fancybox="gallery"
+           data-src="{{ . | absURL }}"
+           data-thumb-src="{{ . | absURL }}"
+           >
+        <img
+             data-lazy-src="{{ . | absURL }}"
+             alt="product item"
+             />
+      </div>
           {{ end }}
         </div>
       </div>
@@ -23,14 +54,58 @@
         <h1 class="mb-4">{{ .Title }}</h1>
         {{ with .Params.colors }}<p><strong>Colors: </strong>{{ delimit . ", " | title}}</p>{{ end }}
         {{ with .Params.sizes }}<p><strong>Sizes: </strong>{{ delimit . ", " | title}}</p>{{ end }}
-        <p class="price py-4">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
-        {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
+        <p class="price py-4">
+          {{ if .Params.discount_price }}
+            {{ site.Params.currency }}{{ .Params.discount_price }}
+          {{ else }}
+            {{ site.Params.currency }}{{ .Params.price }}
+          {{ end }}
+          {{ if .Params.discount_price }}
+            <s class="price">{{ site.Params.currency }}{{ .Params.price }}</s>
+          {{ end }}
         </p>
-        <button href={{ .Params.button_link }} class="payhip-add-to-cart-button button-42" data-theme="none" data-product={{ path.Base .Params.button_link }}>Add to cart</button>
-        <div class="content" style="padding-top: 35px;">{{.Content}}</div>
+        <button 
+          href={{ .Params.button_link }} 
+          class="payhip-add-to-cart-button button-42" 
+          data-theme="none" 
+          data-product={{ path.Base .Params.button_link }}>
+          Add to cart
+        </button>
+        <div class="content" style="padding-top: 35px;">{{ .Content }}</div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Fancybox scripts -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.lazyload.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.thumbs.umd.js"></script>
+    <script>
+      Carousel(document.getElementById("myCarousel"), {
+        // Your custom options
+      }, {
+        Lazyload,
+		Arrows,
+        Thumbs
+      }).init();
+
+      Fancybox.bind("[data-fancybox]", {
+  Carousel: {
+  Thumbs: {
+      showOnStart: false,
+    },
+    Toolbar: {
+      display: {
+        left: ["counter"],
+        middle: [],
+        right: [],
+      },
+    },
+  },
+});
+    </script>
 
 {{ end }}
