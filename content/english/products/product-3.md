@@ -10,6 +10,10 @@ images:
 # meta description
 description : "this is meta description"
 
+# categories
+categories: ["Girl"]
+tags: ["Black", "Dress", "Color blue"]
+
 # product Price
 price: "30.00"
 discount_price: "25.00"

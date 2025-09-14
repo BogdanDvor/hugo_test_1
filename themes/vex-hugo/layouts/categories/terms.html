@@ -1,0 +1,34 @@
+{{ define "main" }}
+<section class="section gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h1 class="font-weight-bold">[TERMS CATEGORIES] {{ .Title }}</h1>
+        <p>{{ .Params.h2 }}</p>
+      </div>
+
+      {{ $parent := site.GetPage "/categories/_index.md" }}
+
+      {{ range .Data.Terms.Alphabetical }}
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 gallery-popup">
+          <a href="{{ .Page.Permalink }}" class="link-all">
+            <img class="img-fluid" src="/images/categories/{{ .Name | lower }}.png" alt="{{ .Page.Title }}">
+
+            <div class="product-info">
+              <h4 class="mb-2 link-title">{{ .Name | title }}</h4>
+              <p class="price">
+                {{ $parent.Params.products }} {{ len .Pages }}
+              </p>
+            </div>
+          </a>
+        </div>
+      {{ end }}
+
+      {{ if eq (len .Data.Terms) 0 }}
+        <p>{{ $parent.Params.nocontentmessage }}</p>
+      {{ end }}
+
+    </div>
+  </div>
+</section>
+{{ end }}

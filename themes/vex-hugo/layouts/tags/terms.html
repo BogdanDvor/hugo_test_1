@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<section class="section gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h1 class="font-weight-bold">[TERMS TAGS] {{ .Title }}</h1>
+      </div>
+
+      {{ range .Data.Terms.Alphabetical }}
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4 gallery-popup">
+        <a href="{{ .Page.Permalink }}" class="link-all">
+          <!-- Якщо є зображення для категорії -->
+          {{ with .Page.Params.image }}
+            <img class="img-fluid" src="{{ . | absURL }}" alt="{{ .Page.Title }}">
+          {{ end }}
+
+          <div class="product-info">
+		  <br>
+            <h4 class="mb-2 link-title">
+              {{ .Page.Title }}
+            </h4>
+            <p class="price">
+              {{ len .Pages }} товар(ів)
+            </p>
+          </div>
+        </a>
+      </div>
+      {{ end }}
+
+    </div>
+  </div>
+</section>
+
+{{ end }}
+

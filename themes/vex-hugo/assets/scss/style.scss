@@ -5,7 +5,8 @@ $primary-font: 'Trebuchet MS',
 sans-serif;
 $secondary-font: 'Courier New',
 serif;
-$primary-color: #f9a743;
+$primary-color: #3b4045;
+$background-primary-color: #EEE;
 $icon-font: 'themefisher-font' !important;
 
 /*--
@@ -71,8 +72,10 @@ h4,
 
 strong {
   font-weight: 1000;
+  font-size: 18px;
   bold: true;
   line-height: 25px;
+  position: relative;
 }
 
 p {
@@ -547,7 +550,8 @@ textarea.form-control {
 /* content style */
 .content {
   * {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+	margin-top: 30px;
   }
 
   a {
@@ -631,11 +635,9 @@ textarea.form-control {
 }
 
 .button-42{
-  background-color: initial;
-  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  background-color: $primary-color;
   border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
-  color: #FFFFFF;
+  color: #FFF;
   cursor: pointer;
   display: inline-block;
   font-family: $primary-font;
@@ -661,7 +663,8 @@ textarea.form-control {
 }
 
 .button-42:hover {
-  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+  color: #3b4045;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 8px;
 }
 
 
@@ -713,4 +716,47 @@ textarea.form-control {
 
 .gallery-popup:hover {
   box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+
+.category-ref {
+  background-color: $background-primary-color;
+  border-radius: 100px;
+  color: $primary-color;
+  cursor: pointer;
+  font-family: $primary-font;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-table;
+  padding: 8px 18px;         /* горизонтальні відступи */
+  height: 40px;            /* висота блоку */
+
+  outline: 0;
+  overflow: hidden;
+  pointer-events: auto;
+  position: relative;
+  text-decoration: none !important;
+  user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  width: auto;             /* ширина під текст */
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+  margin: 6px 2px;
+}
+
+.category-ref:hover {
+  color: #3b4045;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 8px;
+}
+
+.categories-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.categories-wrapper {
+  text-align: left; 
 }

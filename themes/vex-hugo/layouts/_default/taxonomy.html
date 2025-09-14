@@ -1,0 +1,48 @@
+{{ define "main" }}
+
+<section class="section gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h1 class="font-weight-bold">[TAXONOMY DEFAULT] {{ .Title }}</h1>
+      </div>
+
+      {{ $pages := where .Pages "Section" "products" }}
+      {{ if gt (len $pages) 0 }}
+        {{ range $pages }}
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 gallery-popup">
+          <a href="{{ .Permalink }}" class="link-all">
+
+            {{ with index .Params.images 0 }}
+              <img class="img-fluid" src="{{ . | absURL }}" alt="{{ $.Title }}">
+            {{ else }}
+              <img class="img-fluid" src="/images/default-product.jpg" alt="{{ $.Title }}">
+            {{ end }}
+
+            <div class="product-info">
+              <h4 class="mb-2 link-title">{{ .Title }}</h4>
+              <p class="price">
+                {{ if .Params.discount_price }}
+                  {{ site.Params.currency }}{{ .Params.discount_price }}
+                {{ else }}
+                  {{ site.Params.currency }}{{ .Params.price }}
+                {{ end }}
+                {{ if .Params.discount_price }}
+                  <s class="price">{{ site.Params.currency }}{{ .Params.price }}</s>
+                {{ end }}
+              </p>
+            </div>
+          </a>
+        </div>
+        {{ end }}
+      {{ else }}
+        <div class="col-12">
+          <p></p>
+        </div>
+      {{ end }}
+
+    </div>
+  </div>
+</section>
+
+{{ end }}

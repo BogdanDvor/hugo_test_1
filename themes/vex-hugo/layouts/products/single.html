@@ -71,7 +71,29 @@
           data-product={{ path.Base .Params.button_link }}>
           Add to cart
         </button>
-        <div class="content" style="padding-top: 35px;">{{ .Content }}</div>
+        <div class="content">{{ .Content }}</div>
+		<div class="categories-container">
+		  <div class="categories-wrapper">
+			<strong>Categories:</strong>
+			{{ with .Params.categories }}
+			  {{ range . }}
+				{{ $cat := . | urlize | lower }}
+				<a class="category-ref" href="/categories/{{ $cat }}">{{ . | title }}</a>
+			  {{ end }}
+			{{ end }}
+		  </div>
+		</div>
+		<div class="categories-container">
+		  <div class="categories-wrapper">
+			<strong>Tags:</strong>
+			{{ with .Params.tags }}
+			  {{ range . }}
+				{{ $cat := . | urlize | lower }}
+				<a class="category-ref" href="/tags/{{ $cat }}">{{ . | title }}</a>
+			  {{ end }}
+			{{ end }}
+		  </div>
+		</div>
       </div>
     </div>
   </div>
