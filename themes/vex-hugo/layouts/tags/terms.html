@@ -12,7 +12,7 @@
         <a href="{{ .Page.Permalink }}" class="link-all">
           <!-- Якщо є зображення для категорії -->
           {{ with .Page.Params.image }}
-            <img class="img-fluid" src="{{ . | absURL }}" alt="{{ .Page.Title }}">
+            <img class="img-fluid" src="{{ "/images/tags/" | absURL }}{{ .Name | lower }}.png" alt="{{ .Page.Title }}">
           {{ end }}
 
           <div class="product-info">

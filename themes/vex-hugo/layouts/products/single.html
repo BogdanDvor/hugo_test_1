@@ -78,7 +78,7 @@
 			{{ with .Params.categories }}
 			  {{ range . }}
 				{{ $cat := . | urlize | lower }}
-				<a class="category-ref" href="/categories/{{ $cat }}">{{ . | title }}</a>
+				<a class="category-ref" href="{{ "categories/" | absURL }}{{ $cat }}">{{ . | title }}</a>
 			  {{ end }}
 			{{ end }}
 		  </div>
@@ -89,7 +89,7 @@
 			{{ with .Params.tags }}
 			  {{ range . }}
 				{{ $cat := . | urlize | lower }}
-				<a class="category-ref" href="/tags/{{ $cat }}">{{ . | title }}</a>
+				<a class="category-ref" href="{{ "tags/" | absURL }}{{ $cat }}">{{ . | title }}</a>
 			  {{ end }}
 			{{ end }}
 		  </div>
